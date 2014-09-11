@@ -40,6 +40,11 @@
     "dom",
     "events",
     "event",
+    "multiple",
+    "many",
+    "bulk",
+    "dictionary",
+    "object",
     "listener",
     "listeners"
   ]

@@ -2,17 +2,17 @@
 
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 
-Util to attach multiple dom events to an element.
+Utility to attach multiple dom events to an element. Uses [dom-events](https://www.npmjs.org/package/dom-events).
 
 ```js
 var attach = require('attach-dom-events')
 
 attach(element, {
 	mousemove: function(ev) {
-
+		//..
 	},
 	keydown: function(ev) {
-
+		//..
 	}
 })
 ```
@@ -24,7 +24,7 @@ attach(element, {
 #### ```attach(element[, events])```
 #### ```attach.on(element[, events])```
 
-Attaches the dictionary of `events` to `element`, using the keys as names for `addEventListener`. 
+Attaches the dictionary of `events` to `element`, using the keys as event names for `addEventListener`. 
 
 The main exported method is the same as `on`.
 
